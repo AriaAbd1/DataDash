@@ -1,2 +1,8 @@
 streamlit
 matplotlib
+<<<<<<< HEAD
+=======
+scipy
+numpy
+pandas
+>>>>>>> 1cc326b (Rename to app.py for deployment)
