@@ -14,7 +14,7 @@ from scipy.stats import norm, expon
 
 
 st.set_page_config(page_title="Data Visualizer and", layout="wide")
-st.image("thumbnail.png", use_column_width=True)
+st.image("thumbnail.png", use_container_width =True)
 
 if "data" not in st.session_state:
     st.session_state.data = pd.DataFrame(columns=["X", "Y"])
